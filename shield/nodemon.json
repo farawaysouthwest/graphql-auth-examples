@@ -1,0 +1,6 @@
+{
+  "watch": ["shield/src"],
+  "ext": ".ts,.js",
+  "ignore": [],
+  "exec": "ts-node shield/src/main.ts"
+}

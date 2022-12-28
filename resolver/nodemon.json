@@ -1,0 +1,6 @@
+{
+  "watch": ["resolver/src"],
+  "ext": ".ts,.js",
+  "ignore": [],
+  "exec": "ts-node resolver/src/main.ts"
+}

@@ -1,0 +1,9 @@
+schema: schema.ts
+generates:
+  resolvers-types.ts:
+    config:
+      useIndexSignature: true
+    plugins:
+      - typescript
+      - typescript-resolvers
+      - typescript-operations

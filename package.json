@@ -1,0 +1,37 @@
+{
+  "name": "auth-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build:shield": "tsc --project shield",
+    "build:context": "tsc --project context",
+    "build:resolver": "tsc --project resolver",
+    "start:shield": "nodemon --config shield/nodemon.json",
+    "start:context": "nodemon --config context/nodemon.json",
+    "start:resolver": "nodemon --config resolver/nodemon.json",
+    "test": "test",
+    "typegen": "graphql-codegen"
+  },
+  "author": "",
+  "license": "MIT",
+  "volta": {
+    "node": "18.12.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^2.16.2",
+    "@graphql-codegen/typescript": "^2.8.6",
+    "@graphql-codegen/typescript-operations": "^2.5.11",
+    "@graphql-codegen/typescript-resolvers": "^2.7.11",
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.3.0",
+    "graphql": "^16.6.0",
+    "graphql-shield": "^7.6.5"
+  }
+}
