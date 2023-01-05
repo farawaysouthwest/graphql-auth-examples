@@ -1,5 +1,5 @@
 import {Resolvers, User} from "../../resolvers-types";
-import {GraphQLContext} from "./main";
+import {GraphQLContext} from "../../commonUtils";
 
 export default {
   Query: {
